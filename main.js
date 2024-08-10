@@ -8,6 +8,6 @@ function changColor() {
 
     stor.innerHTML = document.body.style.backgroundColor = 
     'rgb(' + parseInt(Math.random() * 255) + 
-    ',' + parseInt(Math.random() * 255) + ',' 
+    ' ' + parseInt(Math.random() * 255) + ' ' 
     + parseInt(Math.random() * 255) + ')';
 }
